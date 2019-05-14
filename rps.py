@@ -74,4 +74,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    playagain = ''
+    while playagain != 'n':
+        main()
+        playagain = input("Would you like to play again?: y/n ")
